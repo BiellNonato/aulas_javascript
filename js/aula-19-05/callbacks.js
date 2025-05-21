@@ -25,18 +25,16 @@
 // }
 // bemVindo(tchau)
 
-function pedirComida(callback){
-    setTimeout(() =>{
-        console.log("pedido feito... Aguarde")
-        console.log("pedido pronto!")
-        callback()
-    }, 2000)
-}
+// function pedirComida(callback){
+//     setTimeout(() =>{
+//         console.log("pedido feito... Aguarde")
+//         console.log("pedido pronto!")
+//         callback()
+//     }, 2000)
+// }
 
-function comer(){
-    console.log("comendo a comida!")
-}
+// function comer(){
+//     console.log("comendo a comida!")
+// }
 
-pedirComida(comer)
-
-
+// pedirComida(comer)
